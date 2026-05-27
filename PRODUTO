@@ -1,0 +1,15 @@
+CREATE TABLE IF not EXISTS produto(
+  id integer PRIMARY key AUTOINCREMENT,
+  valor integer NOT NULL,
+  descriçao TEXT not NULL,
+  tipo TEXT not NULL
+ );
+ 
+ INSERT INTO produto (valor, descriçao, tipo)
+ VALUES
+ ('14.10','bom','rannde'),
+ ('15.67','bom',' sigma');
+
+ 
+ 
+ SELECT * FROM produto
